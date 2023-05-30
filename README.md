@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- [My Solution]()
-- [Live Site URL]()
+- [My Solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-dsswrVPtu1)
+- [Live Site URL](https://mike-dave.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
