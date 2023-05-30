@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="output.css" />
+
+    <!-- JAVASCRIPT FILE -->
+    <script defer src="script.js"></script>
+  </head>
+  <body class="font-josefin bg-gradient-custom">
+    <main
+      class="md:flex md:min-h-screen md:bg-[url('../images/bg-pattern-desktop.svg')] md:bg-[left_-0.625rem_top_-6.25rem]"
+    >
+      <!-- FIRST MAIN-DESKTOP SECTION -->
+      <section class="md:ml-20">
+        <!-- First Section MOBILE LOGO -->
+        <section class="p-7 pl-8 md:p-10 md:pt-16">
+          <img src="images/logo.svg" alt="" />
+        </section>
+
+        <!-- SECOND SECTION MOBILE IMAGE-->
+        <section class="md:hidden">
+          <picture>
+            <img
+              src="images/hero-mobile.jpg"
+              alt="a beautiful woman touching her hair"
+            />
+          </picture>
+        </section>
+
+        <!-- THIRD SECTION -->
+        <section class="pt-9">
+          <section class="md:p-7">
+            <h1
+              class="header-effects pt-14 leading-8 uppercase text-desaturatedRed font-thin md:pt-3 md:text-left"
+            >
+              We're
+            </h1>
+            <h1
+              class="header-effects leading-8 md:text-left text-darkGrayishRed md:font-bold"
+            >
+              coming
+            </h1>
+            <h1
+              class="header-effects leading-4 md:text-left text-darkGrayishRed md:font-bold"
+            >
+              soon
+            </h1>
+            <p
+              class="px-8 pt-5 text-[.92rem] text-center text-desaturatedRed md:text-left md:px-0 md:w-8/12 md:text-[.9rem]"
+            >
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </section>
+
+          <!-- FOURTH SECTION -->
+          <section class="relative pb-16 md:pb-4 cursor-pointer">
+            <form class="p-3 mx-auto">
+              <div class="px-5 pt-3 md:px-3">
+                <!-- EMAIL INPUT -->
+                <input
+                  class="rounded-full p-3 border border-gray-300 w-full outline-softRed placeholder:p-2 placeholder:text-desaturatedRed placeholder:font-thin md:w-8/12 email-area"
+                  type="text"
+                  placeholder="Email Address"
+                />
+                <!-- CONDITION IF EMAIL INPUT IS CORRECT OR NOT -->
+                <p class="p-3 ml-2 text-desaturatedRed hidden error-text">
+                  Please provide a valid email
+                </p>
+                <p class="p-3 ml-2 text-desaturatedRed hidden correct-text">
+                  Correct email
+                </p>
+              </div>
+
+              <!-- ERROR IMAGE -->
+              <div
+                class="flex justify-center gap-4 items-center absolute top-6 right-7 md:right-52"
+              >
+                <div class="hidden error-icon">
+                  <img
+                    src="images/icon-error.svg"
+                    alt="a red imperative mark showing wrong input from the email"
+                  />
+                </div>
+
+                <!-- ARROW ICON -->
+                <button
+                  class="arrow rounded-full p-4 w-[4.375rem] button-box-shadow btn-gradient-custom md:w-[5rem]"
+                >
+                  <img
+                    class="mx-auto"
+                    src="images/icon-arrow.svg"
+                    alt="a white arrow"
+                  />
+                </button>
+              </div>
+            </form>
+          </section>
+        </section>
+      </section>
+
+      <!-- SECOND MAIN-DESKTOP SECTION --DESKTOP IMAGE  -->
+      <section class="min-w-[33.375rem] hidden md:block">
+        <picture>
+          <img
+            class="object-cover"
+            src="images/hero-desktop.jpg"
+            alt="a beautiful woman touching her hair"
+          />
+        </picture>
+      </section>
+    </main>
+  </body>
+</html>
