@@ -524,34 +524,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 480px){
-  .container{
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 976px){
-  .container{
-    max-width: 976px;
-  }
-}
-
-@media (min-width: 1440px){
-  .container{
-    max-width: 1440px;
-  }
-}
-
 .absolute{
   position: absolute;
 }
@@ -585,69 +557,16 @@ video {
   display: none;
 }
 
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-\[4\.375rem\]{
   width: 4.375rem;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.min-w-\[33\.375rem\]{
-  min-width: 33.375rem;
-}
-
-.min-w-\[\]{
-  min-width: ;
-}
-
-.max-w-3xl{
-  max-width: 48rem;
-}
-
-.max-w-6xl{
-  max-width: 72rem;
-}
-
-.max-w-7xl{
-  max-width: 80rem;
-}
-
-.max-w-4xl{
-  max-width: 56rem;
-}
-
-.max-w-5xl{
-  max-width: 64rem;
-}
-
-.max-w-full{
-  max-width: 100%;
-}
-
-.max-w-\[1440px\]{
-  max-width: 1440px;
-}
-
-.max-w-\[2040px\]{
-  max-width: 2040px;
-}
-
-.max-w-\[2060px\]{
-  max-width: 2060px;
-}
-
-.max-w-\[2080px\]{
-  max-width: 2080px;
-}
-
-.max-w-\[2100px\]{
-  max-width: 2100px;
 }
 
 .cursor-pointer{
@@ -677,6 +596,14 @@ video {
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .object-cover{
@@ -823,18 +750,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:right-52{
-    right: 13rem;
-  }
-
-  .md\:right-5{
-    right: 1.25rem;
-  }
-
-  .md\:right-60{
-    right: 15rem;
-  }
-
   .md\:right-64{
     right: 16rem;
   }
@@ -847,16 +762,12 @@ video {
     display: block;
   }
 
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:hidden{
     display: none;
   }
 
-  .md\:min-h-screen{
-    min-height: 100vh;
+  .md\:w-7\/12{
+    width: 58.333333%;
   }
 
   .md\:w-8\/12{
@@ -867,36 +778,8 @@ video {
     width: 5rem;
   }
 
-  .md\:w-9\/12{
-    width: 75%;
-  }
-
-  .md\:w-7\/12{
-    width: 58.333333%;
-  }
-
-  .md\:max-w-\[400px\]{
-    max-width: 400px;
-  }
-
-  .md\:max-w-\[300px\]{
-    max-width: 300px;
-  }
-
-  .md\:max-w-\[350px\]{
-    max-width: 350px;
-  }
-
-  .md\:max-w-\[\]{
-    max-width: ;
-  }
-
-  .md\:flex-row{
-    flex-direction: row;
-  }
-
-  .md\:flex-col{
-    flex-direction: column;
+  .md\:bg-\[url\(\'\.\.\/images\/bg-pattern-desktop\.sv\'\)\]{
+    background-image: url('../images/bg-pattern-desktop.sv');
   }
 
   .md\:bg-\[url\(\'\.\.\/images\/bg-pattern-desktop\.svg\'\)\]{
@@ -950,13 +833,90 @@ video {
   }
 }
 
-@media (min-width: 976px){
-  .lg\:w-full{
-    width: 100%;
+@media (min-width: 1600px){
+  .lg\:-right-72{
+    right: -18rem;
   }
 
-  .lg\:w-fit{
-    width: -moz-fit-content;
-    width: fit-content;
+  .lg\:-right-64{
+    right: -16rem;
+  }
+
+  .lg\:right-64{
+    right: 16rem;
+  }
+
+  .lg\:right-80{
+    right: 20rem;
+  }
+
+  .lg\:ml-\[200px\]{
+    margin-left: 200px;
+  }
+
+  .lg\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .lg\:ml-\[200npx\]{
+    margin-left: 200npx;
+  }
+
+  .lg\:ml-\[250px\]{
+    margin-left: 250px;
+  }
+
+  .lg\:w-6\/12{
+    width: 50%;
+  }
+
+  .lg\:bg-cover{
+    background-size: cover;
+  }
+
+  .lg\:bg-\[left_-0\.625rem_top_-6\.25rem\]{
+    background-position: left -0.625rem top -6.25rem;
+  }
+
+  .lg\:bg-\[left_-0\.625rem_top_-3\.25rem\]{
+    background-position: left -0.625rem top -3.25rem;
+  }
+
+  .lg\:bg-\[left_-0\.625rem_top_-1\.25rem\]{
+    background-position: left -0.625rem top -1.25rem;
+  }
+
+  .lg\:bg-\[left_-0\.625rem_top_1\.25rem\]{
+    background-position: left -0.625rem top 1.25rem;
+  }
+
+  .lg\:bg-\[left_0\.625rem_top_1\.25rem\]{
+    background-position: left 0.625rem top 1.25rem;
+  }
+
+  .lg\:bg-\[right_0\.625rem_top_1\.25rem\]{
+    background-position: right 0.625rem top 1.25rem;
+  }
+
+  .lg\:bg-\[right_-0\.625rem_top_1\.25rem\]{
+    background-position: right -0.625rem top 1.25rem;
+  }
+
+  .lg\:pb-2{
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg\:leading-10{
+    line-height: 2.5rem;
   }
 }
