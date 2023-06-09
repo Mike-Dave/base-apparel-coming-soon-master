@@ -524,6 +524,34 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 480px){
+  .container{
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px){
+  .container{
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1440px){
+  .container{
+    max-width: 1440px;
+  }
+}
+
 .absolute{
   position: absolute;
 }
@@ -565,8 +593,61 @@ video {
   width: 100%;
 }
 
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .min-w-\[33\.375rem\]{
   min-width: 33.375rem;
+}
+
+.min-w-\[\]{
+  min-width: ;
+}
+
+.max-w-3xl{
+  max-width: 48rem;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
+}
+
+.max-w-7xl{
+  max-width: 80rem;
+}
+
+.max-w-4xl{
+  max-width: 56rem;
+}
+
+.max-w-5xl{
+  max-width: 64rem;
+}
+
+.max-w-full{
+  max-width: 100%;
+}
+
+.max-w-\[1440px\]{
+  max-width: 1440px;
+}
+
+.max-w-\[2040px\]{
+  max-width: 2040px;
+}
+
+.max-w-\[2060px\]{
+  max-width: 2060px;
+}
+
+.max-w-\[2080px\]{
+  max-width: 2080px;
+}
+
+.max-w-\[2100px\]{
+  max-width: 2100px;
 }
 
 .cursor-pointer{
@@ -746,6 +827,18 @@ video {
     right: 13rem;
   }
 
+  .md\:right-5{
+    right: 1.25rem;
+  }
+
+  .md\:right-60{
+    right: 15rem;
+  }
+
+  .md\:right-64{
+    right: 16rem;
+  }
+
   .md\:ml-20{
     margin-left: 5rem;
   }
@@ -772,6 +865,38 @@ video {
 
   .md\:w-\[5rem\]{
     width: 5rem;
+  }
+
+  .md\:w-9\/12{
+    width: 75%;
+  }
+
+  .md\:w-7\/12{
+    width: 58.333333%;
+  }
+
+  .md\:max-w-\[400px\]{
+    max-width: 400px;
+  }
+
+  .md\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+
+  .md\:max-w-\[350px\]{
+    max-width: 350px;
+  }
+
+  .md\:max-w-\[\]{
+    max-width: ;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:flex-col{
+    flex-direction: column;
   }
 
   .md\:bg-\[url\(\'\.\.\/images\/bg-pattern-desktop\.svg\'\)\]{
@@ -822,5 +947,16 @@ video {
 
   .md\:font-bold{
     font-weight: 700;
+  }
+}
+
+@media (min-width: 976px){
+  .lg\:w-full{
+    width: 100%;
+  }
+
+  .lg\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
