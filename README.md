@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-| ![Results Summary Component](images/desktop-screenshot.png) | ![Results Summary Component](images/mobile-screenshot.png) |
-| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| ![Base Apparel](images/desktop-screenshot.png) | ![Base Apparel](images/mobile-screenshot.png) |
+| ---------------------------------------------- | --------------------------------------------- |
 
 ### Links
 
